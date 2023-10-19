@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Scroll1">
+
+        <RadioGroup
+            android:id="@+id/Rg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/Q22"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/rbtn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o0" />
+
+            <RadioButton
+                android:id="@+id/rbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o1" />
+
+            <RadioButton
+                android:id="@+id/rbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o2" />
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o3" />
+
+            <RadioButton
+                android:id="@+id/rbtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o4" />
+
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Rg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/Q44"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/rbtn00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o0" />
+
+            <RadioButton
+                android:id="@+id/rbtn01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o1" />
+
+            <RadioButton
+                android:id="@+id/rbtn02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o2" />
+
+            <RadioButton
+                android:id="@+id/rbtn03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o3" />
+
+            <RadioButton
+                android:id="@+id/rbtn04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o4" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Rg3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/Q55"
+                android:textStyle="bold"/>
+            <RadioButton
+                android:id="@+id/rbtn000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o0" />
+
+            <RadioButton
+                android:id="@+id/rbtn001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o1" />
+
+            <RadioButton
+                android:id="@+id/rbtn002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o2" />
+
+            <RadioButton
+                android:id="@+id/rbtn003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o3" />
+
+            <RadioButton
+                android:id="@+id/rbtn004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o4" />
+
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Rg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/Q110"
+                android:textStyle="bold"
+               />
+            <RadioButton
+                android:id="@+id/rbtn0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o0" />
+
+            <RadioButton
+                android:id="@+id/rbtn0001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o1" />
+
+            <RadioButton
+                android:id="@+id/rbtn0002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o2" />
+
+            <RadioButton
+                android:id="@+id/rbtn0003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o3" />
+
+            <RadioButton
+                android:id="@+id/rbtn0004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/o4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">SURVEY</string>
+
+    <string name="Q1">1- In last 6 days, how often have you been upset because of something happened unexpectedly?</string>
+    <string name="Q2">2- In last 6 days, how often have you felt that you were unable to control important things in your life?</string>
+    <string name="Q3">3- In last 6 days, how often have you felt nervous and stressed?</string>
+    <string name="Q4">4- In last 6 days, how often have you felt confident about your ability to handle your personal problems?</string>
+    <string name="Q5">5- In last 6 days, how often have you felt that things going your way?</string>
+    <string name="Q6">6- In last 6 days, how often have you found that you could not cope with all the things that you had to do?</string>
+    <string name="Q7">7- In last 6 days, how often have you been able to control irritations in your life?</string>
+    <string name="Q8">8- In last 6 days, how often have you felt that you were on top of things?</string>
+    <string name="Q9">9- In last 6 days, how often have you been angered because of things that happened that were outside of your control?</string>
+    <string name="Q10">10- In last 6 days, how often have you felt difficulties were piling up so high that you could not overcome them?</string>
+
+    <string name="Q22">1- In last 24 hours, how often have you felt that you were unable to control important things in your life?</string>
+    <string name="Q44">2- In last 24 hours, how often have you felt confident about your ability to handle your personal problems?</string>
+    <string name="Q55">3- In last 24 hours, how often have you felt that things going your way?</string>
+    <string name="Q110">4- In last 24 hours, how often have you felt difficulties were piling up so high that you could not overcome them?</string>
+
+    <string name="o0"> Never </string>
+    <string name="o1"> Almost Never </string>
+    <string name="o2"> Sometimes </string>
+    <string name="o3"> Fairly Often </string>
+    <string name="o4"> Very Often </string>
+    <string name="start_survey">Start Survey</string>
+    <string name="settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+
+    <string name="display_order_text">Sort by:</string>
+    <string name="app_name_label">App</string>
+    <string name="last_time_used_label">Last time used</string>
+    <!-- label for usage time -->
+    <string name="usage_time_label">Usage time</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hintname">John</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="john_gmail_com">john@gmail.com</string>
+    <string name="profession">Profession</string>
+    <string name="prof_hint">Student/Developer</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="hint_age">22</string>
+    <string name="set_notification_time">Set Notification Time</string>
+    <string name="hint_time">11:00 pm</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="tvr">tvresult</string>
+    <string name="title_activity_s">ScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_s2">ScrollingActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="elevated_quantity_and_quality_of_ema_responses_via_gamification">Elevated Quantity and Quality of EMA Responses via Gamification</string>
+    <string name="theses"> Perceived Stress Measuring EMA application.
+        Especially designed for EMA research study.
+        MS thesis 2020-21</string>
+    <string name="todo">TODO</string>
+    <string name="results">Results:</string>
+    <string name="blank">" "</string>
+    <string name="result">Result</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="feedback_questions">Feedback Questions</string>
+</resources>

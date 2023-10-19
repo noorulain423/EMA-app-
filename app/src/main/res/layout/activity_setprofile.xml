@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setprofile">
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/hintname"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/enter_your_name" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/enter_your_email" />
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="180dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/john_gmail_com"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/txtprof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/profession" />
+
+    <EditText
+        android:id="@+id/ed_prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="260dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/prof_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="320dp"
+        android:text="@string/enter_your_age" />
+
+    <EditText
+        android:id="@+id/ed_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="340dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_age"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsetprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/set_profile" />
+</RelativeLayout>

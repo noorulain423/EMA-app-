@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896382071929",
+    "project_id": "emasurvey123",
+    "storage_bucket": "emasurvey123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896382071929:android:b0aca9495834c9a88c10a8",
+        "android_client_info": {
+          "package_name": "com.example.survey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896382071929-uogrghs5r1ccg63vm892b4dbm2k4t9tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1NU51YT0TD2zljUGejCW74BsqcFoLx-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896382071929-uogrghs5r1ccg63vm892b4dbm2k4t9tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
